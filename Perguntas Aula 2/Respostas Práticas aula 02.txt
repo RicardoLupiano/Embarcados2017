@@ -12,7 +12,7 @@ Para todas as questões, escreva os comandos correspondentes no terminal.
 
 2. Apresente o nome de todos os arquivos e pastas na pasta 'root'.
 
-- ls root
+- ls /
 
 3. Apresente o tipo de todos os arquivos e pastas na pasta 'root'.
 - 
