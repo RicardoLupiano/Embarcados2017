@@ -4,7 +4,7 @@ Pelo nome do seu criador.
 
 2. O que são daemons?
 
-É um programa que executa em processo em plano de fundo, em vez de estra sobre controle do usuário.
+É um programa que executa em processo em plano de fundo, em vez de estar sobre controle do usuário.
 
 3. O que é o shell?
 
@@ -24,11 +24,11 @@ Seta para cima.
 
 7. Apresente os respectivos comandos no terminal para:
   (a) Obter mais informações sobre um comando.
-	- man <comando>
+	- man <comando> ou <comando> --help
   (b) Apresentar uma lista com os arquivos dentro de uma pasta.
 	- ls
   (c) Apresentar o caminho completo da pasta.
-	- pwd
+	- pwd <Pasta>
   (d) Trocar de pasta.
 	- cd <caminho do diretorio>
   (e) Criar uma pasta.
@@ -54,7 +54,7 @@ Seta para cima.
   (o) Limpar a tela do terminal.
 	- clear ou ctrl L
   (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
-	- ls | grep *<nome do arquivo>*
+	- ls | grep "nome do arquivo"
   (q) Ordenar informações em um arquivo-texto.
 	- sort <opçoes> <arquivo>
   (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
@@ -62,5 +62,5 @@ Seta para cima.
   (s) Conferir se dois arquivos são iguais.
 	- diff <nome do primeiro arquivo> <nome do segundo arquivo>
   (t) Escrever algo na tela.
-	- nano <arquivo>
+	- echo "String"
 	
